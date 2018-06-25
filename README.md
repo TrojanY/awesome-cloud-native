@@ -25,7 +25,7 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
   - [Networking](#networking)
   - [Observability](#observability)
   - [Orchestration and scheduler](#orchestration-and-scheduler)
-  - [Portability](#portability)
+  - [PaaS](#paas)
   - [Proxy and load balancer](#proxy-and-load-balancer)
   - [RPC](#rpc)
   - [Security and audit](#security-and-audit)
@@ -72,6 +72,7 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 - [frakti](https://github.com/kubernetes/frakti) - The hypervisor-based container runtime for Kubernetes.
 - [gvisor](https://github.com/google/gvisor) - Sandboxed Container Runtime
 - [hyperd](https://github.com/hyperhq/hyperd) - HyperContainer Daemon [http://www.hypercontainer.io](http://www.hypercontainer.io/)
+- [kubevirt](https://github.com/kubevirt/kubevirt) - Kubernetes Virtualization Operator with API and runtime in order to define and manage virtual machines.
 - [pouch](https://github.com/alibaba/pouch) - Pouch is an open-source project created to promote the container technology movement.
 - [railcar](https://github.com/oracle/railcar) - RailCar: Rust implementation of the Open Containers Initiative oci-runtime
 - [rkt](https://github.com/rkt/rkt) - rkt is a pod-native container engine for Linux. It is composable, secure, and built on standards.
@@ -110,6 +111,7 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 - [Redis](https://github.com/antirez/redis) - Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps. [http://redis.io](http://redis.io/)
 - [RethinkDB](https://github.com/rethinkdb/rethinkdb) - The open-source database for the realtime web. [https://rethinkdb.com](https://rethinkdb.com/)
 - [TiDB](https://github.com/pingcap/tidb) - TiDB is a distributed NewSQL database compatible with MySQL protocol [https://pingcap.com](https://pingcap.com/)
+- [mehdb](https://github.com/mhausenblas/mehdb) - Educational Kubernetes-native NoSQL datastore using StatefulSet and persistent volumes [https://blog.openshift.com/kubernetes…](https://blog.openshift.com/kubernetes-statefulset-in-action/)
 
 ### Data Science
 
@@ -151,6 +153,8 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 ### Observability
 
 - [kiali](https://github.com/kiali/kiali) - kiali project to help istio service mesh observability
+- [vistio](https://github.com/nmnellis/vistio) - Visualize your Istio mesh using Netflix's Vizceral
+- [vizceral](https://github.com/Netflix/vizceral) - WebGL visualization for displaying animated traffic graphs
 
 ### Orchestration and scheduler
 
@@ -168,7 +172,7 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 - [descheduler](https://github.com/kubernetes-incubator/descheduler) - Descheduler for Kubernetes [https://github.com/kubernetes-incubator/descheduler](https://github.com/kubernetes-incubator/descheduler)
 - [service-fabric](https://github.com/Microsoft/service-fabric) - Service Fabric is a distributed systems platform for packaging, deploying, and managing stateless and stateful distributed applications and containers at large scale. [https://docs.microsoft.com/en-us/azure/service-fabric](https://docs.microsoft.com/en-us/azure/service-fabric/)
 
-### Portability
+### PaaS
 
 - [Cloud Foundry](https://www.cloudfoundry.org) - Cloud Foundry is an open source, multi cloud application platform as a service (PaaS) governed by the Cloud Foundry Foundation.
 - [DC/OS](https://github.com/dcos) - Datacenter Operating System
@@ -180,9 +184,10 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 - [Rancher](https://github.com/rancher/rancher) - Platform for operating Docker in production [http://rancher.com](http://rancher.com/)
 - [Supergiant](https://github.com/supergiant/supergiant) - Automatically scale hardware and easily run stateful applications using Kubernetes. <https://supergiant.io/>
 - [breeze](https://github.com/wise2c-devops/breeze) -  Wise2C ansible playbook for Kubernetes cluster installation
+- [choerodon](https://github.com/choerodon/choerodon) - The open source PaaS for Kubernetes. [http://choerodon.io](http://choerodon.io/) 
 - [conjure-up](https://github.com/conjure-up/conjure-up) - Deploying complex solutions, magically. [https://conjure-up.io](https://conjure-up.io/)
 - [flynn](https://github.com/flynn/flynn) - A next generation open source platform as a service (PaaS) [https://flynn.io](https://flynn.io/)
-- [kubevirt](https://github.com/kubevirt/kubevirt) - Kubernetes Virtualization Operator with API and runtime in order to define and manage virtual machines.
+- [rainbond](https://github.com/goodrain/rainbond) - Serverless PaaS , A new generation of easy-to-use cloud management platforms based on kubernetes.[http://www.rainbond.com](http://www.rainbond.com/)
 - [vamp](https://github.com/magneticio/vamp) - Vamp - canary releasing and autoscaling for microservice systems [http://vamp.io](http://vamp.io/)
 
 ### Proxy and load balancer
@@ -201,6 +206,7 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 - [katran](https://github.com/facebookincubator/katran) - A high performance layer 4 load balancer
 - [kEdge](https://github.com/improbable-eng/kedge) - kEdge - Kubernetes Edge Proxy for gRPC and HTTP Microservices
 - [kong/kubernetes-ingress-controller](https://github.com/Kong/kubernetes-ingress-controller) - Deploy Kong in a native Kubernetes Ingress Controller <https://konghq.com/>
+- [metallb](https://github.com/google/metallb) - A network load-balancer implementation for Kubernetes using standard routing protocols [https://metallb.universe.tf](https://metallb.universe.tf/)
 - [skipper](https://github.com/zalando/skipper) - An HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress 
 - [voyager](https://github.com/appscode/voyager) - ✈️️ Secure Ingress Controller for Kubernetes by <https://appscode.com>
 
@@ -227,6 +233,7 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 ### Miscellaneous
 
 - [ballerina-lang](https://github.com/ballerina-platform/ballerina-lang) - Ballerina is a new programming language for integration built on a sequence diagram metaphor.
+- [pulumi](https://github.com/pulumi/pulumi) -  A multi-language, multi-cloud development platform -- your code, your cloud, your team
 
 ### Monitoring
 
@@ -275,7 +282,6 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 - [kube-lego](https://github.com/jetstack/kube-lego) - Automatically request certificates for Kubernetes Ingress resources from Let's Encrypt
 - [kube2iam](https://github.com/jtblin/kube2iam) - kube2iam provides different AWS IAM roles for pods running on Kubernetes
 - [kubed](https://github.com/appscode/kubed) - 🛡️ A Kubernetes Cluster Operator Daemon by <https://appscode.com>
-- [metallb](https://github.com/google/metallb) - A network load-balancer implementation for Kubernetes using BGP
 - [notary](https://github.com/docker/notary) - Notary is a Docker project that allows anyone to have trust over arbitrary collections of data [https://docker.com](https://docker.com/)
 - [opa](https://github.com/open-policy-agent/opa) - An open source project to policy-enable your service. [http://openpolicyagent.org](http://openpolicyagent.org/)
 - [spiffe](https://github.com/spiffe/spiffe) - The SPIFFE Project [http://spiffe.io](http://spiffe.io/)
@@ -319,6 +325,7 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 - [OpenWhisk](http://openwhisk.incubator.apache.org/) - Apache OpenWhisk (Incubating) is a [serverless](http://openwhisk.incubator.apache.org/serverless), open source cloud platform that executes functions in response to events at any scale.
 - [faas-netes](https://github.com/alexellis/faas-netes) - Enable Kubernetes as a backend for Functions as a Service (OpenFaaS) <https://github.com/alexellis/faas>
 - [firecamp](https://github.com/cloudstax/firecamp) - Serverless Platform for the stateful services [https://www.cloudstax.io](https://www.cloudstax.io/)
+- [fission](https://github.com/fission/fission) - Fast Serverless Functions for Kubernetes http://fission.io
 - [fn](https://github.com/fnproject/fn) - The container native, cloud agnostic serverless platform. [http://fnproject.io](http://fnproject.io/)
 - [funktion](https://github.com/funktionio/funktion/) - a CLI tool for working with funktion <https://funktion.fabric8.io/>
 - [fx](https://github.com/metrue/fx) - Poor man's serverless framework based on Docker, Function as a Service with painless.
@@ -370,6 +377,7 @@ Please take a quick gander at the **[contribution guidelines](https://github.com
 - [dockersh](https://github.com/Yelp/dockersh) - A shell which places users into individual docker containers
 - [dotmesh](https://github.com/dotmesh-io/dotmesh) - dotmesh (dm) is like git for your data volumes (databases, files etc) in Docker and Kubernetes [https://dotmesh.com](https://dotmesh.com/)
 - [drakov](https://github.com/Aconex/drakov) - Mock Server that implements the API Blueprint specification
+- [eksctl](https://github.com/weaveworks/eksctl) - a CLI for Amazon EKS [https://eksctl.io](https://eksctl.io/)
 - [escalator](https://github.com/atlassian/escalator) - Escalator is a batch or job optimized horizontal autoscaler for Kubernetes
 - [flux](https://github.com/weaveworks/flux) - A tool for turning container images into running Kubernetes services
 - [freshpod](https://github.com/googlecloudplatform/freshpod) - Restart Pods on Minikube automatically on image rebuilds
